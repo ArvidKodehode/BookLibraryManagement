@@ -2,114 +2,115 @@
 
 ![Project Logo](https://arvja.no/img/nkey.jpg)
 
-## 📝 Om prosjektet
-Dette er et **ASP.NET Core MVC-prosjekt** for et bibliotekssystem som bruker **SQLite** som database. Det lar deg **legge til, redigere, slette, forhåndsvise og laste ned bøker**. Alle bøker har en **bokomslags-URL** og en **lenke til en TXT-fil**.
+## 📝 About the Project
+This is an **ASP.NET Core MVC project** for a library management system using **SQLite** as the database. It allows users to **add, edit, delete, preview, and download books**. Each book has a **cover image URL** and a **link to a TXT file**.
 
 ---
 
-# 🚀 **Hvordan laste ned og kjøre prosjektet**
+# 🚀 **How to Download and Run the Project**
 
-## **1️⃣ Klon prosjektet fra GitHub**
-Åpne terminalen eller **Git Bash** og kjør:
+## **1️⃣ Clone the Repository from GitHub**
+Open a terminal or **Git Bash** and run:
 ```sh
- git clone https://github.com/DITT-BRUKERNAVN/BookLibraryManagement.git
+ git clone https://github.com/YOUR-USERNAME/BookLibraryManagement.git
 ```
-Deretter, gå inn i prosjektmappen:
+Then, navigate to the project folder:
 ```sh
  cd BookLibraryManagement
 ```
 
-## **2️⃣ Åpne prosjektet i Visual Studio**
-1. **Åpne Visual Studio 2022**.
-2. Klikk **"Open a project or solution"**.
-3. Finn `BookLibraryManagement.sln` og åpne det.
+## **2️⃣ Open the Project in Visual Studio**
+1. **Open Visual Studio 2022**.
+2. Click **"Open a project or solution"**.
+3. Locate `BookLibraryManagement.sln` and open it.
 
 ---
 
-## **3️⃣ Installer nødvendige avhengigheter**
-Før du kjører prosjektet, må du installere **NuGet-pakkene**.
+## **3️⃣ Install Dependencies**
+Before running the project, install **NuGet packages**.
 
-### 📦 **Installer pakkene**
-Åpne **Package Manager Console** (`Tools` → `NuGet Package Manager` → `Package Manager Console`) og kjør:
+### 📦 **Install packages**
+Open **Package Manager Console** (`Tools` → `NuGet Package Manager` → `Package Manager Console`) and run:
 ```powershell
  dotnet restore
 ```
-Dette laster ned alle nødvendige avhengigheter, inkludert **Entity Framework Core** og **SQLite**.
+This will download all necessary dependencies, including **Entity Framework Core** and **SQLite**.
 
 ---
 
-## **4️⃣ Sjekk at databasen eksisterer**
-Prosjektet bruker **SQLite**, og databasen skal være inkludert i mappen. Slik sjekker du:
-1. **Gå til prosjektmappen**.
-2. **Se etter filen `BookLibrary.db`** i `Data`-mappen.
+## **4️⃣ Check if the Database Exists**
+The project uses **SQLite**, and the database should be included in the project folder. To verify:
+1. **Navigate to the project folder**.
+2. **Check for the file `BookLibrary.db`** in the `Data` folder.
 
-### ❌ **Hvis databasen mangler, opprett den med disse kommandoene:**
+### ❌ **If the database is missing, create it with these commands:**
 
-Åpne **Package Manager Console** og kjør:
+Open **Package Manager Console** and run:
 ```powershell
 Add-Migration InitialCreate
 Update-Database
 ```
-Dette vil **generere databasen og opprette tabellene**.
+This will **generate the database and create tables**.
 
 ---
 
-## **5️⃣ Kjør prosjektet** 🚀
-Når alt er klart, kjør prosjektet:
+## **5️⃣ Run the Project** 🚀
+Once everything is set up, start the project:
 ```sh
  dotnet run
 ```
-Eller, i **Visual Studio**:
-1. Klikk **"Start" (Ctrl + F5)**.
-2. Nettleseren åpner seg, og du ser **bibliotekssystemet ditt**.
+Or, in **Visual Studio**:
+1. Click **"Start" (Ctrl + F5)**.
+2. The browser will open, and you will see the **library management system**.
 
 ---
 
-# ✅ **Prosjektfunksjoner**
-- **CRUD-funksjonalitet** (Legge til, redigere, slette bøker).
-- **Bootstrap 5-design** for en ren og brukervennlig UI.
-- **SQLite-database** for enkel datahåndtering.
-- **Håndtering av bokomslag og TXT-nedlastinger**.
-- **Referanse til Project Gutenberg for bøker**.
+# ✅ **Project Features**
+- **CRUD functionality** (Add, edit, delete books).
+- **Bootstrap 5 design** for a clean and user-friendly UI.
+- **SQLite database** for easy data management.
+- **Book covers and TXT file handling**.
+- **Project Gutenberg as the book source**.
 
-🔗 **Nettside for bøker:** [Project Gutenberg](https://www.gutenberg.org/)
-
----
-
-# 📌 **Hvordan bidra?**
-1. **Fork prosjektet på GitHub**.
-2. **Lag en ny branch** for dine endringer:
-   ```sh
-   git checkout -b feature-navn
-   ```
-3. **Gjør endringer og commit**:
-   ```sh
-   git commit -m "La til ny funksjonalitet"
-   ```
-4. **Push endringene til GitHub**:
-   ```sh
-   git push origin feature-navn
-   ```
-5. **Opprett en Pull Request (PR)** på GitHub.
+🔗 **Book Source:** [Project Gutenberg](https://www.gutenberg.org/)
 
 ---
 
-# 🛠 **Feilsøking**
-### 🔴 **Prosjektet kjører ikke?**
-- Sørg for at **NuGet-pakkene er installert** (`dotnet restore`).
-- Sjekk om **`BookLibrary.db` eksisterer**.
-- Hvis databasen mangler, kjør:
+# 📌 **How to Contribute?**
+1. **Fork the project on GitHub**.
+2. **Create a new branch** for your changes:
+   ```sh
+   git checkout -b feature-name
+   ```
+3. **Make changes and commit**:
+   ```sh
+   git commit -m "Added new feature"
+   ```
+4. **Push the changes to GitHub**:
+   ```sh
+   git push origin feature-name
+   ```
+5. **Create a Pull Request (PR)** on GitHub.
+
+---
+
+# 🛠 **Troubleshooting**
+### 🔴 **Project is not running?**
+- Make sure **NuGet packages are installed** (`dotnet restore`).
+- Check if **`BookLibrary.db` exists**.
+- If the database is missing, run:
   ```powershell
   Update-Database
   ```
 
-### 🔴 **Kan ikke laste ned bøker?**
-- Sjekk at `PdfUrl` i databasen peker til en gyldig `.txt`-fil.
-- Test en fungerende lenke, f.eks.:  
+### 🔴 **Unable to download books?**
+- Verify that `PdfUrl` in the database points to a valid `.txt` file.
+- Test a working link, for example:  
   ```
   https://www.gutenberg.org/files/1342/1342-0.txt
   ```
 
 ---
 
-# 🏆 **Takk for at du bruker Book Library Management System!** 🎉
+# 🏆 **Thank You for Using the Book Library Management System!** 🎉
+
