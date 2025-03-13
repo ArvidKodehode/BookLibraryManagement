@@ -2,8 +2,25 @@
 
 ![Project Logo](https://arvja.no/img/nkey.jpg)
 
-## 📝 About the Project
-This is an **ASP.NET Core MVC project** for a library management system using **SQLite** as the database. It allows users to **add, edit, delete, preview, and download books**. Each book has a **cover image URL** and a **link to a TXT file**.
+## 📝 **About the Project**
+
+### **Project Name:** Book Library Management System  
+### **Group Name:** Dimlingane  
+### **Team Members:**  
+- **Member 1:** Ean Moralsk / Support  
+- **Member 2:** Stian S. / Programmer  
+- **Member 3:** Arvid / Programmer  
+
+### **GitHub Repository Link:** [BookLibraryManagement](https://github.com/ArvidKodehode/BookLibraryManagement)
+
+### **Work Log**
+| Date | Hours Worked | Team Member | Task Description |
+|------|-------------|-------------|------------------|
+| Mar 5, 2025 | 3 hrs | Group discussion | Team leader is Ean, hurra gjeng and organizer |
+| Mar 7, 2025 | 2 hrs | All | Self-study |
+| Mar 11, 2025 | 2 hrs | All | Self-study |
+| Mar 12, 2025 | 4 hrs | All | Assembling the project, control, and finalization |
+| Mar 13, 2025 | 2 hrs | Stian S, Arvid | Final touch-ups and submission |
 
 ---
 
