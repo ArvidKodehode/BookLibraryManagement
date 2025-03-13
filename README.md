@@ -9,7 +9,7 @@ This project is an **ASP.NET Core MVC-based library management system** utilizin
 ### **Project Name:** Book Library Management System  
 ### **Group Name:** Dimlingane  
 ### **Team Members:**  
-- **Member 1:** Ean Moralsk / Support  
+- **Member 1:** Ean Umoralsk support  
 - **Member 2:** Stian S. / Programmer  
 - **Member 3:** Arvid / Programmer  
 
