@@ -1,8 +1,10 @@
 # 📚 Book Library Management System
 
-![Project Logo](https://arvja.no/img/nkey.jpg)
-
 ## 📝 **About the Project**
+
+This project is an **ASP.NET Core MVC-based library management system** utilizing **SQLite** as its database. The system allows users to **add, edit, delete, preview, and download books**. Books can have **cover images and TXT file links**.
+
+---
 
 ### **Project Name:** Book Library Management System  
 ### **Group Name:** Dimlingane  
@@ -26,7 +28,10 @@
 
 # 🚀 **How to Download and Run the Project**
 
-## **1️⃣ Clone the Repository from GitHub**
+## **1️⃣ Download the Project**
+You can either **clone the repository from GitHub** or **download the ZIP file**.
+
+### **Option 1: Clone from GitHub**
 Open a terminal or **Git Bash** and run:
 ```sh
  git clone https://github.com/YOUR-USERNAME/BookLibraryManagement.git
@@ -35,6 +40,14 @@ Then, navigate to the project folder:
 ```sh
  cd BookLibraryManagement
 ```
+
+### **Option 2: Download ZIP File**
+1. Go to the GitHub repository: [BookLibraryManagement](https://github.com/ArvidKodehode/BookLibraryManagement)
+2. Click **"Code"** → **"Download ZIP"**.
+3. Extract the ZIP file to a preferred location.
+4. Open the extracted folder in **Visual Studio**.
+
+---
 
 ## **2️⃣ Open the Project in Visual Studio**
 1. **Open Visual Studio 2022**.
@@ -130,4 +143,3 @@ Or, in **Visual Studio**:
 ---
 
 # 🏆 **Thank You for Using the Book Library Management System!** 🎉
-
